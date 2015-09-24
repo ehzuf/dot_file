@@ -3,7 +3,7 @@
 > usage:
 
 ```
-ln -s ~/Dropbox/others/dot_file/.vimrc ~/.vimrc
+ln -s [path]/dot_file/.vimrc ~/.vimrc
 ```
 
 
