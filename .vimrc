@@ -421,7 +421,7 @@ let g:airline#extensions#tabline#enabled = 1
 
 
 " YCM setting
-let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
+" let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
 let g:ycm_error_symbol = '>>'
 let g:ycm_warning_symbol = '>*'
 nnoremap <leader>jd :YcmCompleter GoTo<CR>
@@ -430,4 +430,4 @@ nnoremap <leader>jd :YcmCompleter GoTo<CR>
 nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
 nnoremap <F5> :YcmDiags<CR>
 " disable YCM start up automatically
-let g:loaded_youcompleteme = 1
+" let g:loaded_youcompleteme = 1

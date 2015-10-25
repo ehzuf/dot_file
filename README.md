@@ -153,8 +153,16 @@ cd ~/.vim/bundle/YouCompleteMe
 
 > Don't forget to install `cmake`
 
+install submodules: 
+
 ```
 git submodule update --init --recursive
+```
+
+For Ubuntu/Debian, compiling is not needed.
+```
+sudo apt-get install vim-addon-manager vim-youcompleteme
+vim-addon-manager install youcompleteme
 ```
 
 Add this to your vimrc:
