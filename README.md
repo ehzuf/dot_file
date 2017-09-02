@@ -9,7 +9,7 @@ sh ./setup.sh
 ## Basic installation
 
 ```
-apt-get install vim tmux zsh git wget tree htop ctags-exuberant
+apt-get install vim tmux zsh git wget tree htop exuberant-ctags
 ```
 
 ## oh-my-zsh
