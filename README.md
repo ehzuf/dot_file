@@ -178,5 +178,5 @@ let g:ycm_warning_symbol = '>*'
 nnoremap gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
 nnoremap <F5> :YcmDiags<CR>
 " disable YCM start up automatically
-let g:loaded_youcompleteme = 1
+" let g:loaded_youcompleteme = 1
 ```
