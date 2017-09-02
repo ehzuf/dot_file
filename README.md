@@ -3,7 +3,7 @@
 > usage:
 
 ```
-ln -s [absolute/relative path]/dot_file/.vimrc ~/.vimrc
+sh ./setup.sh
 ```
 
 ## Basic installation
@@ -72,7 +72,8 @@ nnoremap <F4> :NERDTreeToggle<CR>
 
 ### 4. vim-airline
 ```
-git clone https://github.com/bling/vim-airline ~/.vim/bundle/vim-airline
+cd ~/.vim/bundle
+git clone https://github.com/bling/vim-airline
 ```
 
 Add this to your vimrc:
@@ -161,7 +162,7 @@ git submodule update --init --recursive
 
 For Ubuntu/Debian, compiling is not needed.
 ```
-sudo apt-get install vim-addon-manager vim-youcompleteme
+apt-get install vim-addon-manager vim-youcompleteme
 vim-addon-manager install youcompleteme
 ```
 
