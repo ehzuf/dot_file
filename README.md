@@ -90,17 +90,46 @@ cd ~/.vim/bundle
 git clone https://github.com/scrooloose/nerdcommenter.git
 ```
 
+
+Add this to your vimrc:
+```
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+
+" Use compact syntax for prettified multi-line comments
+let g:NERDCompactSexyComs = 1
+
+" Align line-wise comment delimiters flush left instead of following code indentation
+let g:NERDDefaultAlign = 'left'
+
+" Set a language to use its alternate delimiters by default
+let g:NERDAltDelims_java = 1
+
+" Add your own custom formats or override the defaults
+let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/' } }
+
+" Allow commenting and inverting empty lines (useful when commenting a region)
+let g:NERDCommentEmptyLines = 1
+
+" Enable trimming of trailing whitespace when uncommenting
+let g:NERDTrimTrailingWhitespace = 1
+```
+
 > basic usage:
 
 ```
 [count]<leader>cc |NERDComComment|
+
 Comment out the current line or text selected in visual mode.
 
-[count]<leader>c |NERDComToggleComment|
+[count]<leader>cn |NERDComNestedComment|
+
+Same as cc but forces nesting.
+
+[count]<leader>c<space> |NERDComToggleComment|
+
 Toggles the comment state of the selected line(s). If the topmost selected line is commented, all selected lines are uncommented and vice versa.
 
-[count]<leader>cu |NERDComUncommentLine|
-Uncomments the selected line(s).
 ```
 
 
