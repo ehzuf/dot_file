@@ -2,6 +2,7 @@
 echo "link files.."
 ln -s $(pwd)/.vimrc ~/.vimrc
 ln -s $(pwd)/.tmux.conf ~/.tmux.conf
+ln -s $(pwd)/.bashrc ~/.bashrc
 
 # install vim plugins
 echo "install vim plugins.."
