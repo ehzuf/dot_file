@@ -446,3 +446,7 @@ nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
 nnoremap <F5> :YcmDiags<CR>
 " disable YCM start up automatically
 " let g:loaded_youcompleteme = 1
+
+" Indent Guides setting
+let g:indent_guides_enable_on_vim_startup = 1
+nnoremap <F6> :IndentGuidesToggle<CR>
