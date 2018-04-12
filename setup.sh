@@ -15,3 +15,4 @@ git clone https://github.com/bling/vim-airline
 git clone https://github.com/scrooloose/nerdcommenter.git
 git clone https://github.com/kshenoy/vim-signature.git
 git clone https://github.com/nathanaelkane/vim-indent-guides.git
+git clone https://github.com/Yggdroot/indentLine.git
